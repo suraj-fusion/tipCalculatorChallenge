@@ -90,7 +90,7 @@ function Output({bill,service,friendService})
 {
     return(
         <div>
-            <h1>{`You pay $${bill + bill* ((service+friendService)/2)/100 } ( $${bill} + $${bill* ((service+friendService)/2)/100}) tip `} </h1> 
+            <h1>{`You pay $${bill + bill* ((service+friendService)/2)/100 } ( $${bill} + $${bill* ((service+friendService)/2)/100} tip )`} </h1> 
         </div>
     )
 }
